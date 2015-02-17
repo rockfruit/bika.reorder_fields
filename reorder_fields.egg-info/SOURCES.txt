@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+reorder_fields/__init__.py
+reorder_fields/analysisrequest.py
+reorder_fields.egg-info/PKG-INFO
+reorder_fields.egg-info/SOURCES.txt
+reorder_fields.egg-info/dependency_links.txt
+reorder_fields.egg-info/entry_points.txt
+reorder_fields.egg-info/not-zip-safe
+reorder_fields.egg-info/requires.txt
+reorder_fields.egg-info/top_level.txt

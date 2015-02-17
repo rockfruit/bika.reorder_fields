@@ -1,0 +1,18 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    i18n_domain="bika">
+
+    <!-- required Plone stuff -->
+    <include package="archetypes.schemaextender" />
+    <includeDependencies package="." />
+ 
+    <!-- Adapters for AnalysisRequest -->
+    <adapter
+        name='bika.new'
+        factory=".analysisrequest.AnalysisRequestSchemaExtender" />
+    <adapter
+        name='bika.new'
+        factory=".analysisrequest.AnalysisRequestSchemaModifier" />
+
+</configure>
